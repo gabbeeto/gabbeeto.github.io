@@ -1,0 +1,45 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+
+}
+
+
+
+body{
+background-color: #07010D;
+color: white;
+}
+
+
+header{
+border-bottom: 2px solid white;
+display: flex;
+justify-content: center;
+padding: 10px;
+}
+
+footer{
+border-top: 2px solid white;
+display: flex;
+justify-content: center;
+padding: 5px;
+}
+
+article,nav{
+margin: 50px 10px;
+}
+section{
+margin: 25px 5px;
+}
+h3{
+margin-bottom: 5px;
+}
+
+dd{
+margin-bottom: 20px;
+
+}
+
