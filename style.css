@@ -1,3 +1,10 @@
+:root{
+--whiteBorder: 2px solid white;
+--whiteColor: white;
+--background: #07010D;
+}
+
+
 *{
 padding: 0;
 margin: 0;
@@ -9,20 +16,20 @@ box-sizing: border-box;
 
 
 body{
-background-color: #07010D;
-color: white;
+background-color: var(--background);
+color: var(--whiteColor);
 }
 
 
 header{
-border-bottom: 2px solid white;
+border-bottom: var(--whiteBorder);
 display: flex;
 justify-content: center;
 padding: 10px;
 }
 
 footer{
-border-top: 2px solid white;
+border-top: var(--whiteBorder);
 display: flex;
 justify-content: center;
 padding: 5px;
@@ -43,3 +50,10 @@ margin-bottom: 20px;
 
 }
 
+
+tr,td,table{
+border-collapse:collapse ;
+border:var(--whiteBorder) ;
+padding: 8px;
+
+}
