@@ -9,8 +9,6 @@
 padding: 0;
 margin: 0;
 box-sizing: border-box;
-
-
 }
 
 
@@ -28,16 +26,15 @@ justify-content: center;
 padding: 10px;
 }
 
-footer{
-border-top: var(--whiteBorder);
-display: flex;
-justify-content: center;
-padding: 5px;
+main{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+grid-template-rows: 160px 1fr ;
+justify-items: center;
+align-items: center;
 }
 
-article,nav{
-margin: 50px 10px;
-}
+
 section{
 margin: 25px 5px;
 }
@@ -45,15 +42,91 @@ h3{
 margin-bottom: 5px;
 }
 
-dd{
-margin-bottom: 20px;
+
+article,nav{
+margin: 50px 10px;
+}
+
+nav{
+border: var(--whiteBorder);
+border-radius: 20px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 150px;
+width: 300px;
+grid-area: 1 / 1 / 1 / -1;
+}
+
+ul{
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+gap: 5px;
+}
+
+
+#archievements{
+
+grid-area: 2 / 1 / 2 / 1;
+
+}
+
+#goals{
+grid-area: 2/2/2/2;
+}
+
+details p{
+background-color: white;
+color: black;
+border-radius: 20px;
+padding: 10px;
 
 }
 
 
-tr,td,table{
-border-collapse:collapse ;
-border:var(--whiteBorder) ;
-padding: 8px;
 
+
+
+table{
+border-radius: 20px;
+border-top-right-radius:0px ;
+border-top-left-radius:0px ;
+padding: 8px;
+}
+
+td{
+border-radius: 20px;
+padding: 8px;
+border:var(--whiteBorder);
+}
+
+
+
+table{
+border-spacing: 8px;
+border: var(--whiteBorder);
+}
+
+caption{
+background-color: white;
+color: black;
+padding: 8px;
+border-radius: 20px;
+border-bottom-right-radius:0px ;
+border-bottom-left-radius:0px ;
+}
+
+#schedule{
+justify-self: center;
+grid-area: -1/ 1 / -1 / -1;
+}
+
+
+footer{
+border-top: var(--whiteBorder);
+display: flex;
+justify-content: center;
+padding: 5px;
 }
