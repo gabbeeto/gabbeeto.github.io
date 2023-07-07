@@ -2,15 +2,18 @@
 
 --whiteBorder: 2px solid black;
 --whiteColor: black;
+--blackColor:white;
 --background: #FFFFFF;
+--pinky:#831550;
 }
 
 :root.dark{
 
 --whiteBorder: 2px solid white;
 --whiteColor: white;
+--blackColor:black;
 --background: #07010D;
-
+--pinky:#C998C0;
 }
 
 
@@ -76,12 +79,12 @@ gap: 5px;
 }
 
 a:link{
-color: white;
-background-color: #000908;
+color: var(--whiteColor);
+background-color: var(--blackColor);
 }
 
 a:visited{
-color:#FECCD5
+color: var(--pinky);
 
 }
 #projects{
@@ -101,11 +104,12 @@ grid-area: 2/2/2/2;
 
 details p{
 background-color:var(--whiteColor);
-color: black;
+color: var(--blackColor);
 border-radius: 20px;
 padding: 10px;
-width: min(50vw,70ch);
+width: min(50vw,68ch);
 }
+
 
 
 
@@ -132,8 +136,8 @@ border: var(--whiteBorder);
 }
 
 caption{
-background-color: white;
-color: black;
+background-color: var(--whiteColor);
+color:var(--blackColor) ;
 padding: 8px;
 border-radius: 20px;
 border-bottom-right-radius:0px ;
@@ -152,6 +156,7 @@ border-radius: 20px;
 height: 15vh;
 background-color: var(--background);
 color: var(--whiteColor);
+border:var(--whiteBorder);
 position: fixed;
 bottom: 10px;
 right: 10px;
