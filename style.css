@@ -1,18 +1,21 @@
 :root{
-
 --whiteBorder: 2px solid black;
+--blackBorder: 2px solid white;
 --whiteColor: black;
 --blackColor:white;
 --background: #FFFFFF;
+--background2: #07010D;
 --pinky:#831550;
 }
 
 :root.dark{
 
 --whiteBorder: 2px solid white;
+--blackBorder: 2px solid black;
 --whiteColor: white;
 --blackColor:black;
 --background: #07010D;
+--background2: #FFFFFF;
 --pinky:#C998C0;
 }
 
@@ -150,6 +153,7 @@ grid-area: -1/ 1 / -1 / -1;
 }
 
 
+/*dark mode button*/
 aside > button{
 width: 10vw;
 border-radius: 20px;
@@ -160,6 +164,16 @@ border:var(--whiteBorder);
 position: fixed;
 bottom: 10px;
 right: 10px;
+padding: 10px;
+}
+
+aside > button:hover{
+
+background-color: var(--background2);
+color: var(--blackColor);
+border:var(--blackBorder);
+
+cursor: pointer;
 }
 
 
