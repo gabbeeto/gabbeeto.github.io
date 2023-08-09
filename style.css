@@ -154,7 +154,29 @@ border-bottom-left-radius:0px ;
 
 #schedule{
 justify-self: center;
-grid-area: -1/ 1 / -1 / -1;
+grid-area: 4/ 1 / 4 / -1;
+}
+
+#socialMedia{
+justify-self: center;
+grid-area: 3/ 1 / 3 / -1;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items:center; 
+}
+
+#socialMedia  nav{
+display: flex;
+width: 100%;
+}
+
+#socialMedia dl, #socialMedia dt, #socialMedia dl{
+	display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
 }
 
 
