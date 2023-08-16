@@ -35,8 +35,10 @@ color: var(--whiteColor);
 
 header{
 border-bottom: var(--whiteBorder);
+font-size: clamp(0.7rem, 2vw, 2rem);
 display: flex;
 justify-content: center;
+align-content: center;
 padding: 10px;
 }
 
@@ -69,9 +71,9 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-height: 190px;
-width: 360px;
-padding: 80px;
+height: min(95vh,190px);
+width: min(98vw,360px);
+padding: 10px;
 }
 
 ul{
@@ -168,7 +170,8 @@ align-items:center;
 
 #socialMedia  nav{
 display: flex;
-width: 80%;
+width: min(99vw,700px);
+height:min(98vh,330px);
 }
 
 #socialMedia{
@@ -200,9 +203,9 @@ fill: var(--whiteColor);
 
 /*dark mode button*/
 aside > button{
-width: 10vw;
+width: min(25vw,210px);
+height: min(18vh,100px);
 border-radius: 20px;
-height: 15vh;
 background-color: var(--background);
 color: var(--whiteColor);
 border:var(--whiteBorder);
@@ -211,6 +214,8 @@ bottom: 10px;
 right: 10px;
 padding: 10px;
 }
+
+
 
 aside > button:hover{
 
@@ -229,6 +234,11 @@ justify-content: center;
 padding: 5px;
 }
 
+
+
+
+
+
 @media(max-width:800px){
 main{
 display: flex;
@@ -246,5 +256,52 @@ article:first-of-type{
 flex-direction: column;
 }
 }
+
+
+@media(max-width:580px){
+#schedule{
+width: 100%;
+
+}
+table{
+border-spacing: 1px;
+padding: 2px;
+width: 99%;
+}
+
+
+}
+
+
+@media(max-width:480px){
+
+thead{
+display: none;
+}
+
+tbody {
+display: flex;
+flex-direction: column;
+}
+
+
+td{
+border: 2px solid transparent;
+}
+
+tr{
+display: flex;
+flex-direction: column;
+border-bottom: 2px solid var(--whiteColor);
+justify-content: center;
+align-items: center;
+}
+
+td[scope]{
+	display: none;
+}
+
+}
+
 
 
