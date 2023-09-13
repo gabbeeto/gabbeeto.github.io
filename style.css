@@ -189,16 +189,31 @@ figure{
 display: flex;
 justify-content: center;
 align-items: center;
+text-align:center;
+gap: 20px;
+margin-top:20px;
 }
+
 #socialMedia a{
 background-color: transparent;
-
 }
 
 #socialMedia svg{
+
+display:flex;
+justify-content:center;
+  align-items:center;
 width: 35px;
 height: 35px;
 fill: var(--whiteColor);
+}
+
+figcaption{
+
+display:flex;
+justify-content:center;
+  align-items:center;
+
 }
 
 
