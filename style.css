@@ -29,6 +29,7 @@ box-sizing: border-box;
 
 body{
 background-color: var(--background);
+transition: all 2s;
 color: var(--whiteColor);
 }
 
@@ -90,11 +91,12 @@ list-style: none;
 a:link{
 color: var(--whiteColor);
 background-color: var(--blackColor);
+transition: all 2s;
 }
 
 a:visited{
 color: var(--pinky);
-
+transition: all 2s;
 }
 #projects{
 display: flex;
@@ -114,6 +116,7 @@ grid-area: 2/2/2/2;
 details p{
 background-color:var(--whiteColor);
 color: var(--blackColor);
+transition: all 2s;
 border-radius: 20px;
 padding: 10px;
 width: min(50vw,68ch);
