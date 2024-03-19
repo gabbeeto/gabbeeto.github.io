@@ -3,12 +3,11 @@ import './index.css'
 import Header from "./Header"
 import {Main} from './Main/Main'
 
-const rootElement = document.getElementById('root')!
+const rootElement = document.querySelector('body')!
 const root = ReactDOM.createRoot(rootElement)
 
-root.render(<>
+root.render(<div className="bg-gradient-to-r from-emerald-300 to-cyan-300">
 <Header />
 <Main />
-
-</>
+</div>
 )

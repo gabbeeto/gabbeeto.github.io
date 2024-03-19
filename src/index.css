@@ -4,29 +4,39 @@
 
 .textSize-6 {
 font-size: clamp(0.6rem, calc(0.9vw + 0.2rem), 1.5rem);
+font-weight: 400;
 }
 
 
 .textSize-5 {
 font-size: clamp(0.8rem, calc(1.1vw + 0.3rem), 1.7rem);
+font-weight: 410;
 }
 
 
 .textSize-4 {
 font-size: clamp(1rem, calc(1.3vw + 0.4rem), 1.9rem);
+font-weight: 420;
 }
 
 
 .textSize-3 {
 font-size: clamp(1.2rem, calc(1.6vw + 0.5rem), 2.2rem);
+font-weight: 450;
 }
 
 
 .textSize-2 {
 font-size: clamp(1.5rem, calc(2.6vw + 0.5rem), 2.8rem);
+font-weight: 500;
 }
 
 
 .textSize-1 {
 font-size: clamp(1.8rem, calc(3.2vw + 0.5rem), 3.5rem);
+font-weight: 700;
+}
+
+.containerExtras{
+max-width: 93%;
 }
