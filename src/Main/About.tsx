@@ -1,10 +1,11 @@
 import {ReactElement} from "react";
 
 export default function About({containerStyle}:{containerStyle: string}): ReactElement{
-return (<section className={`${containerStyle} mt-2`}><h2 className="textSize-2">My story:</h2>
-<p className="textSize-3">I've been learning English for more than 6 years for fun
-and for the last year I was learning how to code. I'm able to make websites but I realized I liked videogames way more than making websites so I learned how to use godot and I learned the gdscrit language until a big accident happened to me. I couldn't continue to make games because my computer is broken so I decided to adventure myself into teaching English
-</p>
+return (<section className={`${containerStyle} mt-2`}><h2 className="textSize-2">About me</h2>
+
+<p> I'm a spanish speaker who happened to learn english when I was a teenager. I'm a loser who want to get better at life. I'm currently developing a game in my free time and I'm usually busy on my job and finishing highschool </p>
+<span className="text-red-800 textSize-5 ">(this dude is an adult and didn't even finish highschool)</span>
+<p>I'm slowly making a horror game but it'll take time since I only have time available when I'm streaming on <a className="text-purple-800 textSize-4" href="https://www.twitch.tv/gabbeeto" target="_blank" >twitch</a></p>
 </section>)
 
 }

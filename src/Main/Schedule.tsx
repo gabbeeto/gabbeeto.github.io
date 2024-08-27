@@ -3,27 +3,44 @@ import {ReactElement} from "react";
 export default function Schedule({containerStyle}:{containerStyle: string}): ReactElement{
 return (<section className={containerStyle}>
 
-<table>
-<caption className="textSize-2">My Schedule</caption>
+<table className="schedulo">
+<caption className="textSize-1">My Schedule in a nutshell</caption>
 <thead>
 <tr>
-<th scope='col' className="textSize-3">
+<th scope='col' className="textSize-2">
 time
 </th>
 
-<th scope='col' className="textSize-3">
+<th scope='col' className="textSize-2">
 task
 </th>
 </tr>
 </thead>
 
-<tbody>
+<tbody >
 <tr>
-<th scope="row" className="textSize-3"> 6 a.m to 7p.m</th>
+<th scope="row" className="textSize-4">6a.m/3p.m</th>
 <th className="textSize-4">
-prepare myself and go to my job
+work on my job
 </th>
 </tr>
+
+
+<tr>
+<th scope="row" className="textSize-4">3p.m/6p.m</th>
+<th className="textSize-4">
+stream on twitch
+</th>
+</tr>
+
+
+<tr>
+<th scope="row" className="textSize-4">6p.m/11p.m</th>
+<th className="textSize-4">
+go to highschool
+</th>
+</tr>
+
 </tbody>
 </table>
 
