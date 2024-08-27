@@ -1,9 +1,8 @@
 import React from "react";
-import goodLookingSausage from "./img/happy.png"
 
 export default function Header(): React.ReactElement {
 return (<header className="flex justify-center items-center bg-red-200">
 <h1 className="text-black text-center textSize-1">Gabbeeto's website</h1>
-<img src={goodLookingSausage}  alt="goodLookingSausage" />
+<img src={"/img/happy.png"}  alt="goodLookingSausage" />
 </header>)
 }
