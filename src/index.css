@@ -58,12 +58,17 @@ border: 2px solid black;
 .goodColorsButDark{
 
 background-image: linear-gradient(  #6c362a  ,  #2a6c30 ,  #6c2a68 ) ;
-height: 105vh ;
-min-height: 105vh ;
 }
+
+body > div{
+display: flex;
+flex-direction: column;
+}
+
 
 header {
 border-bottom: 2px solid black;
+min-height: 8vw;
 }
 
 header img{
