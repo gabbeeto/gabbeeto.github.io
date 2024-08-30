@@ -29,7 +29,7 @@ work on my job
 <tr>
 <th scope="row" className="textSize-4">3p.m/6p.m</th>
 <th className="textSize-4">
-stream on twitch
+stream on Twitch
 </th>
 </tr>
 
