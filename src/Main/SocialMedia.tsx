@@ -6,6 +6,10 @@ return (<section className={`${containerStyle} mt-2`}><h2 className="textSize-2"
 <ul>
 
 <li>
+<a href="https://www.youtube.com/@gabbeeto" className="text-red-800 hover:text-white hover:bg-red-900 p-2 rounded-xl" target="_blank" >Youtube</a>
+</li>
+
+<li>
 <a href="https://discord.gg/SRHAP2nneX" className="text-blue-800 hover:text-white hover:bg-blue-900 p-2 rounded-xl" target="_blank" >Discord</a>
 </li>
 

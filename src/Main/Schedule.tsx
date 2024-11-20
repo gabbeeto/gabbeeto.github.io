@@ -1,49 +1,14 @@
 import {ReactElement} from "react";
-
-export default function Schedule({containerStyle}:{containerStyle: string}): ReactElement{
-return (<section className={containerStyle}>
-
-<table className="schedulo">
-<caption className="textSize-1">My Schedule in a nutshell</caption>
-<thead>
-<tr>
-<th scope='col' className="textSize-2">
-time
-</th>
-
-<th scope='col' className="textSize-2">
-task
-</th>
-</tr>
-</thead>
-
-<tbody >
-<tr>
-<th scope="row" className="textSize-4">6a.m/3p.m</th>
-<th className="textSize-4">
-work on my job
-</th>
-</tr>
+import {InstagramEmbed} from "react-social-media-embed";
 
 
-<tr>
-<th scope="row" className="textSize-4">3p.m/6p.m</th>
-<th className="textSize-4">
-stream on twitch
-</th>
-</tr>
+export default function Posts({containerStyle}: {containerStyle: string}): ReactElement {
+	return (<section className={containerStyle}>
 
-
-<tr>
-<th scope="row" className="textSize-4">6p.m/11p.m</th>
-<th className="textSize-4">
-go to highschool
-</th>
-</tr>
-
-</tbody>
-</table>
-
-</section>)
+<div style={{ display: 'flex', justifyContent: 'center', flexDirection: 'column'  }} >
+  <InstagramEmbed  url="https://www.instagram.com/p/DCkFbFwyLYD/" width={328}  />
+  <InstagramEmbed  url="https://www.instagram.com/p/C_QxRxvpjGx/" width={328}  />
+</div>
+	</section>)
 
 }
