@@ -1,0 +1,10 @@
+html{
+--black:  black;
+--border:  2px solid var(--black);
+
+
+}
+
+header {
+border-bottom: var(--border);
+}
