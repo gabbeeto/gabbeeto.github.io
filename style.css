@@ -5,8 +5,11 @@ padding:  0;
 }
 
 html{
---black:  black;
---border:  2px solid var(--black);
+--MainColor:  black;
+--secondaryColor:  white;
+--border:  2px solid var(--secondaryColor);
+background-color: var(--MainColor);
+color: var(--secondaryColor);
 }
 
 header {
@@ -16,4 +19,23 @@ justify-content: center;
 align-items: center;
 }
 
-main{}
+main{
+}
+
+
+button{
+background-color: var(--MainColor);
+color: var(--secondaryColor);
+padding: 5px;
+margin: 5px;
+border-radius: 5px;
+border: var(--border);
+outline: 0px solid transparent;
+cursor: pointer;
+}
+
+button:hover{
+background-color: var(--secondaryColor);
+color: var(--MainColor);
+}
+
