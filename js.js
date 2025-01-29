@@ -45,7 +45,8 @@ const list = [
     new MSG("langButton", [`Switch to Spanish`, `cambiar a ingles`]),
 ]
 
-document.querySelector('#langButton').addEventListener('click', switchLanguage)
+const langButton = document.querySelector('#langButton')
+langButton.addEventListener('click', switchLanguage)
 
 function switchLanguage(){
 	// switches languages
