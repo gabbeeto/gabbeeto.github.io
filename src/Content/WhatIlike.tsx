@@ -9,7 +9,7 @@ export default function Main() {
 							es={(<>Lo que me gusta:</>)}
 				 />
 			</h2>
-			<div>
+			<div className="flex items-center justify-center">
 			<p>
 
 				<Lang en={(<>I like to push my limits when it comes to learning—I always strive to improve. I enjoy programming, math, and working with software in general. When I was a kid, I learned how to edit YouTube videos, so my passion for software started at an early age(even though I was not actually doing anything related to programming). I'm curious about almost everything.</>)}
@@ -17,7 +17,7 @@ export default function Main() {
 				 />
 
 			</p>
-			<img width='200px' height='100px' src={me} alt={LangT("a picture of me", "una foto de mi")}/>
+			<img width='130px' height='60px' className="rounded-3xl" src={me} alt={LangT("a picture of me", "una foto de mi")}/>
 			</div>
 		</>)} />)
 

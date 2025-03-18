@@ -14,13 +14,15 @@ function changeLanguage() {
 }
 
 export default function Header() {
-	return (<header>
+	return (<header className='border-white border-b-2 flex flex-column justify-center items-center gap-2 p-2'>
 		<h1>
 			<Lang en={(<>About Gabbeeto</>)}
 				es={(<>Acerca de Gabbeeto</>)}
 			/>
 		</h1>
-		<button onClick={changeLanguage}>
+		<button onClick={changeLanguage}
+			className='border-white border-2 rounded-3xl p-2'
+		>
 			<Lang en={(<>Cambiar a Español</>)}
 				es={(<>Switch to English</>)}
 			/>
