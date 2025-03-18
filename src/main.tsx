@@ -1,5 +1,4 @@
-import {StrictMode} from 'react'
-import {createRoot, Root} from 'react-dom/client'
+import {createRoot} from 'react-dom/client'
 import Header from './Header'
 import Main from './MainElement'
 import './index.css'

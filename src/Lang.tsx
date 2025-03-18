@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import  { ReactNode } from 'react';
 
 export default function Lang({es, en}: {es: ReactNode,en: ReactNode }) {
 	return (<>{window.lang == 'es' ? es : en}</>)

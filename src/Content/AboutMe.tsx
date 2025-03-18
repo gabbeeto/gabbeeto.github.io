@@ -1,4 +1,4 @@
-import Lang, {LangT} from "./../Lang";
+import Lang  from "./../Lang";
 import Section from './../Section';
 
 export default function Main() {
