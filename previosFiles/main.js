@@ -1,16 +1,9 @@
-if (navigator.language.startsWith('es')) {
-	document.querySelector("html").lang = 'es'
-}
-else {
-	document.querySelector("html").lang = 'en'
-}
-
 
 if (document.querySelector("html").lang == 'en') {
-	document.title = `gabbeeto's website`
+	document.title = `Gabriel's website`
 }
 else {
-	document.title = `la pagina de gabriel`
+	document.title = `La pagina de Gabriel`
 }
 
 const langButton = document.querySelector('#langButton')
