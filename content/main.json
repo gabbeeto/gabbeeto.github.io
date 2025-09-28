@@ -1,0 +1,16 @@
+{
+  "tittle": ["Website of gabbeeto","Pagina de gabbeeto"],
+  "about": ["About me","Acerca de mi"],
+  "aboutP": ["I happen to like to make games and make content in general. Lately I've been working on \"Lyla's night\"","Ultimamente me ha pasado que me gusta hacer videojuegos. Estuve creando \"Las noches de Lyla\" "],
+  "blog":[
+    {
+      "name": "Working on the camera for Lyla's game",
+      "date": "25-09-28",
+      "description": "Today I've done the camera for the game",
+      "imgAlt":"a camera"
+    }
+
+    
+  ]
+
+}
