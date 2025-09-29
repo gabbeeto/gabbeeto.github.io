@@ -1,4 +1,3 @@
-alert("this works")
 
 async function renderStuff() {
   const response = await fetch("./content/main.json");
@@ -30,6 +29,17 @@ function renderWebsite(json) {
       <p>
       ${json.aboutP[0]}
       </p>
+    </article>
+    <article>
+      <h2>social media</h2>
+
+        <ul>
+          <li><a href='https://www.twitch.tv/gabbeeto'>Twitch</a></li>
+          <li><a href='https://www.youtube.com/@gabbeeto'>YouTube</a></li>
+          <li><a href='https://x.com/GabbeetoRSC'>Twitter/x</a></li>
+          <li><a href='https://www.instagram.com/gabbeeto27/'>Instagram</a></li>
+          <li><a href='https://gabbeto.itch.io/'>Itch.io</a></li>
+        </ul>
     </article>
     <article>
       <h2>Blog</h2>
