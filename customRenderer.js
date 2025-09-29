@@ -13,7 +13,7 @@ function renderWebsite(json) {
               <h3>${e.name}</h3>
               <p class="date">${e.date}</p>
               <p>${e.description}</p>
-              <img src="./img/${e.date}" alt="${e.imgAlt}">
+              <img src="./content/img/${e.date}.png" alt="${e.imgAlt}">
             </section>`
 
   }).join("")
@@ -31,9 +31,9 @@ function renderWebsite(json) {
       ${json.aboutP[0]}
       </p>
     </article>
-      ${sections}
     <article>
-
+      <h2>Blog</h2>
+      ${sections}
     </article>
 
   </main>
