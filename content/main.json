@@ -3,6 +3,14 @@
   "about": ["About me","Acerca de mi"],
   "aboutP": ["I happen to like to make games and make content in general. Lately I've been working on \"Lyla's night\"","Ultimamente me ha pasado que me gusta hacer videojuegos. Estuve creando \"Las noches de Lyla\" "],
   "blog":[
+
+    {
+      "name": "I made it so the user can actually if the game has good graphics or not today",
+      "date": "2025-09-29",
+      "description": "and I made it so there are some good looking shadows which makes the game a little bit more creepy imo",
+      "imgAlt":"a demonstration about how shadows affect"
+    },
+
     {
       "name": "Working on the camera for \"Lyla's night\" game",
       "date": "2025-09-28",
