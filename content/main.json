@@ -5,6 +5,15 @@
   "blog":[
 
     {
+      "name": "I changed the ui of my game",
+      "date": "2025-10-04",
+      "description": "The buttons were so big before",
+      "imgAlt":"a demonstration of buttons being smaller"
+    },
+
+
+
+    {
       "name": "I made it so the user can actually if the game has good graphics or not today",
       "date": "2025-09-29",
       "description": "and I made it so there are some good looking shadows which makes the game a little bit more creepy imo",
