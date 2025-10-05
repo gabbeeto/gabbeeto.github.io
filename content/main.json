@@ -5,6 +5,14 @@
   "blog":[
 
     {
+      "name": "I changed the ui of my camera",
+      "date": "2025-10-05",
+      "description": "now it has more details than before",
+      "imgAlt":"a demonstration of camera ui"
+    },
+
+
+    {
       "name": "I changed the ui of my game",
       "date": "2025-10-04",
       "description": "The buttons were so big before",
