@@ -17,6 +17,7 @@ html {
 main,
 header,
 article,
+body,
 section {
   flex-direction: column;
   display: flex;
@@ -25,13 +26,25 @@ section {
   text-align: center;
 }
 
+body{
+gap:8px;
+}
+
+
+
 header {
   border-bottom: 2px solid black;
+  width: 100%;
+  background-color: var(--lightWhite)
 }
 
 main {
   gap: 3px;
   padding: 3px;
+}
+article{
+width: 98%;
+  
 }
 
 h2 {
@@ -61,6 +74,11 @@ img {
 
 }
 
+iframe{
+  border-radius: 10px;
+  width: 50vw;
+  height: 30vw;
+}
 section {
   background-color: var(--lightGray);
   border-radius: 4px;
